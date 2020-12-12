@@ -1,6 +1,7 @@
 branches:
   only:
-    - master, mock_test
+    - master
+    - mock_test
 language: python
 before_install:
   - sudo apt-get update -qq
